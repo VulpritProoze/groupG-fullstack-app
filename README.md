@@ -8,6 +8,7 @@ A full-stack application for managing employee information, department details, 
 - [Team Members](#team-members-and-assigned-tasks)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Remote PostgreSQL Access](#remote-postgresql-access)
 - [Deployment](#deployment)
 - [Testing](#testing)
 - [Contributing](#contributing)
@@ -355,7 +356,7 @@ No local installation is required. The app is deployed online and ready to use.
 - After registering, check your email for a verification link.
 - Make sure to use a valid email address to receive verification instructions.
 
-#### 2. Accessing PostgreSQL Database Remotely
+#### 2. <a id="remote-postgresql-access"></a>Accessing PostgreSQL Database Remotely
 
 You can connect to the remote PostgreSQL database via the following command:
 
