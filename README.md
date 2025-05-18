@@ -358,8 +358,8 @@ No local installation is required. The app is deployed online and ready to use.
 
 #### 2. <a id="remote-postgresql-access"></a>Accessing PostgreSQL Database Remotely
 
-You can connect to the remote PostgreSQL database via the following command:
-
+First, open a shell or bash, then you can connect to the remote PostgreSQL database via the following command:
+> ⚠️ **Note:** Make sure PostgreSQL is installed and is added to your system path.
 ```bash
 PGPASSWORD=VGDhHJwdooFcgecDVbRBucHjAvcpNkVJ psql -h switchback.proxy.rlwy.net -U postgres -p 36186 -d railway
 Password: VGDhHJwdooFcgecDVbRBucHjAvcpNkVJ
