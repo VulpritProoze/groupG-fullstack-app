@@ -1,6 +1,6 @@
 // db.js
 
-const config = require('config.json');
+const config = require('../config');
 const { Sequelize } = require('sequelize');
 
 module.exports = db = {};
